@@ -1,0 +1,262 @@
+/* Navbar styling start */
+/* html{
+    font-size: 62.25%;
+} */
+#top-nav {
+  background-color: #daac00;
+  padding: 0 7%;
+}
+
+.navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  gap: 0.89rem;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+#search-box {
+  background-color: #fcc302;
+  color: #fff;
+  border-style: none;
+  border-radius: 0;
+  box-shadow: 5px 10px 11px 0px #00000021;
+  position: relative;
+  left: 47px;
+}
+#search-box::placeholder {
+  color: #ffffffe0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+#search-btn {
+  position: relative;
+  z-index: 100;
+  background-color: #014f50;
+  color: #fff;
+  border-style: none;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 992px) {
+  #search-form {
+    position: relative;
+    left: -3rem;
+    margin-block: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  #top-nav {
+    padding: 0;
+  }
+}
+
+/* Navbar styling end */
+
+/* Banner styling start */
+#banner {
+  background-color: #fcc302;
+  padding-bottom: 20px;
+}
+
+#banner-text h1 {
+  color: white;
+  font-size: 5.8vmax;
+  margin-bottom: 1.4rem;
+}
+#banner-text p {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 2.4rem;
+  word-spacing: 1.25px;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+}
+#banner-btn-1 {
+  background-color: #014f50;
+  border: 1px solid #014f50;
+  color: #fff;
+  padding: 7px 15px;
+  margin-right: 15px;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+#banner-btn-2 {
+  background-color: transparent;
+  color: #fff;
+  padding: 7px 15px;
+  border: 1px solid;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+#banner-img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1008px) {
+  #banner {
+    padding: 1.6rem 4rem;
+  }
+  #banner h1 {
+    font-size: 4.6vmax;
+  }
+}
+@media screen and (max-width: 768px) {
+  #banner {
+    padding: 1.6rem 4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  #banner {
+    padding-inline: 1rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  #banner {
+    padding-inline: 1rem;
+  }
+  #banner h1 {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 322px) {
+  #banner-btn-1 {
+    margin-bottom: 1rem;
+  }
+
+  #banner-btn-1,
+  #banner-btn-2 {
+    font-size: 1rem;
+  }
+}
+/* Banner styling end */
+
+/* service styling start */
+#service-text {
+  padding-block: 5%;
+}
+#service-btn {
+  background-color: #014f50;
+  color: white;
+  border: 1px solid #014f50;
+}
+#service-img {
+  padding: 5%;
+}
+
+/* service styling end */
+
+/* counter styling start */
+#counter-section {
+  background: url("./Assets/counter.jpg");
+
+  background-position: center;
+  background-size: cover;
+  padding-block: 5rem;
+}
+.counter-icon {
+  font-size: 15vmin;
+}
+
+/* counter styling end */
+/* Blog styling start */
+#blog {
+  padding-block: 5rem;
+}
+#blog-title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+#blog-para {
+  font-size: 1.4rem;
+  margin-bottom: 2.6rem;
+}
+
+.article-detail {
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+.article-title {
+  font-size: 1.4rem;
+}
+.article-desc {
+  font-size: 1rem;
+}
+/* .blog-img{
+    width: 100%;
+    height: 37.2%;
+} */
+.article-date,
+.article-link {
+  color: #188561;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* Blog styling end */
+/* footer styling start */
+#footer {
+  background-color: #343434;
+  padding-top: 5rem ;
+  padding-bottom: 2rem ;
+}
+#footer h4 {
+  font-size: 1.6rem;
+}
+
+#footer a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+#footer form {
+  margin-block: 1.2rem;
+}
+
+#footer-search-box {
+  background-color: #fcc302;
+  color: white;
+  border: none;
+  width: 100%;
+  max-width: 250px;
+  padding: 0.6rem;
+}
+#footer-search-btn {
+  background-color: #014f50;
+  color: white;
+  border: none;
+  padding: 0.6rem 2rem;
+  position: relative;
+  left: -4px;
+}
+
+.social-icon {
+  margin-inline: 6px;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width:1076px) {
+   #footer-search-box{
+   max-width: 200px;
+    
+   }  
+}
+@media screen and (max-width:928px) {
+   #footer-search-box{
+   max-width: 150px;
+    
+   }  
+   #footer-search-btn{
+   max-width: 150px;
+    padding: 0.6rem 1rem;
+   }  
+}
+@media screen and (max-width:576px) {
+.footer-search{
+    text-align: center;
+}
+}
+/* footer styling end */
